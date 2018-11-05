@@ -20,5 +20,6 @@ class Shoe
       if existingbrand != brand
         BRANDS << brand
       end
+    end
   end
 end
