@@ -16,10 +16,5 @@ class Shoe
   
   def brand=(brand)
     @brand = brand
-    BRANDS.each do |existingbrand|
-      if existingbrand != brand
-        BRANDS << brand
-      end
-    end
   end
 end
